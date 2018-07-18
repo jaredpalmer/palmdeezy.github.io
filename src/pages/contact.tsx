@@ -47,7 +47,7 @@ export default class Contact extends React.Component<void, TalksState> {
         title="Contact me about a project"
         description="Contact Jared Palmer, about your design, development, or strategy project."
       >
-        <Wrapper paddingTop="10rem" paddingBottom="5rem">
+        <Wrapper paddingTop="10rem" paddingBottom="7rem">
           <Column
             css={{
               [theme.media.medium]: {
@@ -66,9 +66,11 @@ export default class Contact extends React.Component<void, TalksState> {
               }}
             >
               <Block
-                component="h2"
+                component="h1"
                 color={theme.color.dark}
                 fontWeight={800}
+                position="relative"
+                background={theme.color.white}
                 marginBottom="1rem"
                 fontSize="3rem"
                 letterSpacing="-.03em"
